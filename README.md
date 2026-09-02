@@ -38,10 +38,6 @@ sixteen days?*
 | Training records | 3.0M+ observations |
 | Auxiliary data | Store metadata (city, state, cluster, type), daily oil prices, national holiday calendar |
 
-Ecuador's economy is oil-dependent, so daily crude prices are included as a
-proxy for consumer purchasing power. Public-sector wages are paid on the 15th
-and the last day of each month, which produces a semi-monthly demand cycle
-that a weekly seasonality model would miss entirely.
 
 Raw competition data is not redistributed in this repository. To reproduce,
 download it from the competition page linked above.
@@ -164,9 +160,7 @@ leaderboard. The final version improved the submitted score from 0.40269 to
   summarised here; a fuller version of this analysis would report which
   categories carry the highest error and what that implies for automated
   replenishment.
-- The public leaderboard for this competition is a rolling window and is known
-  to include submissions that reuse published solutions, so the rank should be
-  read as a relative indicator rather than a precise ranking.
+- This is a Getting Started competition with a rolling public leaderboard and no medal system, so the rank reflects relative standing at a point in time rather than a formal competition placement.
 
 ## Repository structure
 
