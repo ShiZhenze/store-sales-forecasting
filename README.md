@@ -187,4 +187,4 @@ pandas, numpy, lightgbm, xgboost
 
 ## License
 
-Licensed under CC BY-NC-SA 4.0. See `LICENSE`.
+MIT License. See `LICENSE`.
